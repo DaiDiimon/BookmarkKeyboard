@@ -1,0 +1,50 @@
+{
+	"manifest_version": 3,
+	"name": "BookmarkKeyboard",
+	"version": "1.1",
+	"icons": {
+		"128": "icon128.png"
+	},
+	"description": "Allows user to bind bookmark folders to keyboard shortcut. Pressing shortcut allows for random opening of that folder.",
+	"background": {
+		"service_worker": "background.js"
+	},
+	"options_page": "options.html",
+	"permissions": [
+		"commands",
+		"storage",
+		"bookmarks"
+	],
+	"commands": {
+		"slot0": {
+			"description": "Toggle shortcut slot 0"
+		},
+		"slot1": {
+			"description": "Toggle shortcut slot 1"
+		},
+		"slot2": {
+			"description": "Toggle shortcut slot 2"
+		},
+		"slot3": {
+			"description": "Toggle shortcut slot 3"
+		},
+		"slot4": {
+			"description": "Toggle shortcut slot 4"
+		},
+		"slot5": {
+			"description": "Toggle shortcut slot 5"
+		},
+		"slot6": {
+			"description": "Toggle shortcut slot 6"
+		},
+		"slot7": {
+			"description": "Toggle shortcut slot 7"
+		},
+		"slot8": {
+			"description": "Toggle shortcut slot 8"
+		},
+		"slot9": {
+			"description": "Toggle shortcut slot 9"
+		}
+	}
+}
